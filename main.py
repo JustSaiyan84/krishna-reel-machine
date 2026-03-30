@@ -32,7 +32,7 @@ def upload_to_drive(file_path):
 
     file_metadata = {
         'name': os.path.basename(file_path),
-        'parents': ['PASTE_YOUR_FOLDER_ID_HERE']
+        'parents': [1PTPXQKrBXVCmwD7D9kUJ-skKkneMK-Uj]
     }
 
     media = MediaFileUpload(file_path, resumable=True)
